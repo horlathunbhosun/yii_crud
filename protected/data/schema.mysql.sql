@@ -1,0 +1,10 @@
+CREATE TABLE user_informations (
+    id INTEGER NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    first_name VARCHAR(128) NOT NULL,
+    last_name VARCHAR(128) NOT NULL,
+    college VARCHAR(128) NOT NULL,
+    branch VARCHAR(128) NOT NULL,
+    city VARCHAR(128) NOT NULL
+);
+
+
